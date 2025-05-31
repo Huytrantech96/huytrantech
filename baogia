@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dịch Vụ Website & Fanpage</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #e6f0ff, #ffffff);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    header::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 200px;
+      height: 4px;
+      background: linear-gradient(to right, gold, white, gold);
+      border-radius: 2px;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2.section-title {
+      font-size: 24px;
+      margin-bottom: 20px;
+      border-left: 6px solid #2a5298;
+      padding-left: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 16px 20px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background: #2a5298;
+      color: white;
+      font-weight: 600;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr.total {
+      background: #f0f8ff;
+      font-weight: bold;
+      color: #d32f2f;
+    }
+
+    footer {
+      background: #1e3c72;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 14px;
+      position: relative;
+    }
+
+    footer::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 180px;
+      height: 3px;
+      background: linear-gradient(to right, gold, white, gold);
+      border-radius: 2px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dịch Vụ Website & Fanpage Trọn Gói</h1>
+  </header>
+
+  <div class="container">
+    <h2 class="section-title">🖥 Gói Website Basic – Tổng chi phí: 3.500.000đ</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Hạng mục</th>
+          <th>Thời gian</th>
+          <th>Chi phí</th>
+          <th>Ghi chú</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hosting tốc độ cao 1 năm</td>
+          <td>Trong ngày</td>
+          <td>1.500.000đ</td>
+          <td>SSD, hỗ trợ kỹ thuật miễn phí</td>
+        </tr>
+        <tr>
+          <td>Cài đặt WordPress + Flatsome</td>
+          <td>0.5 ngày</td>
+          <td>300.000đ</td>
+          <td>Cấu hình nền tảng ban đầu</td>
+        </tr>
+        <tr>
+          <td>Thiết kế giao diện 5 trang</td>
+          <td>2 ngày</td>
+          <td>900.000đ</td>
+          <td>Trang chủ, Giới thiệu, Sản phẩm, Tin tức, Liên hệ</td>
+        </tr>
+        <tr>
+          <td>Tối ưu di động + UX</td>
+          <td>1 ngày</td>
+          <td>300.000đ</td>
+          <td>Responsive, UI hiện đại</td>
+        </tr>
+        <tr>
+          <td>Gắn Messenger, Zalo, bản đồ, form</td>
+          <td>0.5 ngày</td>
+          <td>200.000đ</td>
+          <td>Tạo tương tác và liên hệ dễ dàng</td>
+        </tr>
+        <tr class="total">
+          <td colspan="2">Tổng thời gian: 4–5 ngày</td>
+          <td>3.500.000đ</td>
+          <td>Không bao gồm SEO</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2 class="section-title">📘 Gói Fanpage Trọn Gói – Tổng chi phí: 2.900.000đ</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Hạng mục</th>
+          <th>Thời gian</th>
+          <th>Chi phí</th>
+          <th>Ghi chú</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tạo fanpage + thiết lập chuẩn</td>
+          <td>0.5 ngày</td>
+          <td>200.000đ</td>
+          <td>Tên, mô tả, liên kết website</td>
+        </tr>
+        <tr>
+          <td>Thiết kế avatar + banner fanpage</td>
+          <td>0.5 ngày</td>
+          <td>500.000đ</td>
+          <td>Thiết kế chuẩn branding</td>
+        </tr>
+        <tr>
+          <td>Viết 15 bài content khởi đầu</td>
+          <td>1 ngày</td>
+          <td>800.000đ</td>
+          <td>Giới thiệu, lợi ích, sản phẩm...</td>
+        </tr>
+        <tr>
+          <td>Thiết kế 5 form hình ảnh kèm bài viết</td>
+          <td>1 ngày</td>
+          <td>600.000đ</td>
+          <td>Đồng bộ thẩm mỹ và nội dung</td>
+        </tr>
+        <tr>
+          <td>Seeding 5000 like + 100 comment thật</td>
+          <td>1 ngày</td>
+          <td>800.000đ</td>
+          <td>Tăng uy tín khởi đầu</td>
+        </tr>
+        <tr class="total">
+          <td colspan="2">Tổng thời gian: 3–4 ngày</td>
+          <td>2.900.000đ</td>
+          <td>Không bao gồm vận hành về sau</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+ <footer>
+    &copy; 2025 Huytran.tech – Giải pháp Marketing Online cho Hộ kinh doanh. <br />
+    Liên hệ: <strong>huytran.tech.vn@gmail.com</strong> | Hotline: 0909 999 888
+  </footer>
+</body>
+</html>
